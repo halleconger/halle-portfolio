@@ -1,0 +1,85 @@
+.carousel {
+    text-align: center;
+}
+
+img {
+    height: 400px;
+}
+/* 
+#welcomePageImages {
+    text-align: center;
+    margin-top: 30px;
+} */
+
+.imageContainer {
+    position: relative;
+    margin-top: 30px;
+}
+  
+.optionImages {
+    display: block;
+    height: 300px;
+    width: 340px;
+    border-radius: 50%;
+    border: double #b9b2b5 5px;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 300px;
+    width: 340px;
+    opacity: .09;
+    transition: .3s ease;
+    background-color: #f8f8fe;
+    border-radius: 60%;
+    border: double #b9b2b5 5px;
+}
+  
+.imageContainer:hover .overlay {
+    opacity: 1;
+}
+  
+.icon {
+    color: #b9b2b5;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fa-user:hover {
+    color: #b9b2b5;
+}
+
+.fa-user {
+    color: #b9b2b5;
+}
+
+.fa-file:hover {
+    color: #b9b2b5;
+}
+
+.fa-file {
+    color: #b9b2b5;
+}
+
+.fa-address-book:hover {
+    color: #b9b2b5;
+}
+
+.fa-address-book {
+    color: #b9b2b5;
+}
+
+#welcomePageText {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 20px;
+}
+
