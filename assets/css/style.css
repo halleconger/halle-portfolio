@@ -13,7 +13,7 @@ img {
 
 .imageContainer {
     position: relative;
-    margin-top: 30px;
+    margin-top: 20px;
 }
   
 .optionImages {
@@ -83,3 +83,18 @@ img {
     font-size: 20px;
 }
 
+body {
+    background-color: #f8f8fe;
+}
+
+.welcomePageJumbo {
+    background-color: #b9b2b5;
+    border-bottom: #f4d5e3 double 8px;
+}
+
+.jumbotronText {
+    color: #f8f8fe;
+    font-family: 'Londrina Sketch', cursive;
+    font-size: 100px;
+    text-align: center;
+}
