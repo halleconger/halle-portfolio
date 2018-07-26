@@ -1,15 +1,7 @@
+/* WELCOME PAGE */
 .carousel {
     text-align: center;
 }
-
-img {
-    height: 400px;
-}
-/* 
-#welcomePageImages {
-    text-align: center;
-    margin-top: 30px;
-} */
 
 .imageContainer {
     position: relative;
@@ -98,3 +90,118 @@ body {
     font-size: 100px;
     text-align: center;
 }
+/* */
+
+/* NAV BAR */
+.navbar {
+    background-color: #b9b2b5;
+    border-bottom: #f8f8fe 7px double;
+    height: 75px;
+}
+
+.navbar-brand {
+    color: #f8f8fe;
+    font-size: 50px;
+    font-family: 'Londrina Sketch', cursive;
+}
+
+.navbar-brand:hover {
+    color: #f4d5e3;
+    font-size: 50px;
+    font-family: 'Londrina Sketch', cursive;
+}
+
+.nav-item {
+    color: #f8f8fe;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav-item:hover {
+    color: #f4d5e3;
+    font-size: 30px;
+    font-family: 'Londrina Sketch', cursive;
+}
+/* */
+
+/* FOOTER */
+.page-footer {
+    background-color: #f4d5e3;
+    margin-top: 40px;
+    clear: both;
+    text-align: center;
+    border-top: #b9b2b5 7px double;
+    padding-bottom: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+
+.fab {
+    color: #f8f8fe;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+#copyrightText {
+    color: #f8f8fe;
+    font-size: 10px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+/* */
+
+/* ABOUT PAGE */
+.helloNameJumbo {
+    background-image: url("../images/aboutpage.jpg");
+    background-size: cover;
+    height: 250px;
+    border-bottom: #f8f8fe 7px double;
+}
+
+.helloNameLogo {
+    color: #f8f8fe;
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 90px;
+    text-align: center;
+}
+
+.professionalPic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: solid #b9b2b5 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#aboutMeBio {
+    font-family: 'Quicksand', sans-serif;
+    color: #b9b2b5;
+    font-size: 20px;
+    margin-top: 40px;
+}
+/* */
+
+/* PROJECT PAGE */
+#projectSlideContainer {
+    margin-top: 70px;
+}
+
+#carouselExampleIndicators {
+    border: 5px double #b9b2b5; 
+}
+
+.d-block {
+    height: 400px;
+    width: 500px;
+}
+/* */
+
+/* CONTACT PAGE */
+.typeform-widget {
+    margin-top: 40px;
+    border: #f4d5e3 7px double;
+
+}
+/* */
