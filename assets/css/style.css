@@ -1,3 +1,7 @@
+html, body {
+ height: 100%
+}
+
 /* WELCOME PAGE */
 .carousel {
     text-align: center;
@@ -126,15 +130,15 @@ body {
 
 /* FOOTER */
 .page-footer {
-    background-color: #f4d5e3;
-    margin-top: 40px;
-    clear: both;
-    text-align: center;
-    border-top: #b9b2b5 7px double;
-    padding-bottom: 10px;
+    margin: 0 auto;
+    width:100%;
+    height:auto;
+    overflow:hidden;
     position: fixed;
-    bottom: 0;
-    width: 100%
+    bottom: 0px;
+    background-color: #f4d5e3;
+    border-top: #b9b2b5 7px double;
+    text-align: center;
 }
 
 .fab {
@@ -147,7 +151,7 @@ body {
     color: #f8f8fe;
     font-size: 10px;
     font-family: 'Quicksand', sans-serif;
-
+    padding-bottom: 10px;
 }
 /* */
 
@@ -180,6 +184,19 @@ body {
     color: #b9b2b5;
     font-size: 20px;
     margin-top: 40px;
+}
+
+.downloadIcon {
+    color: #b9b2b5;
+    text-align: center;
+    font-size: 30px;
+}
+
+.downloadIconText {
+    color: #b9b2b5;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 10px;
 }
 /* */
 
